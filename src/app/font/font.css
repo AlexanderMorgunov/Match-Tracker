@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "TacticSans";
+  src: url("../../../public/fonts/TacticSans-Lgt.woff2") format("woff2"),
+    url("../../../public/fonts/TacticSans-RegIt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../../public/fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../public/fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #06080c; /* Основной цвет фона */
+    --background-dark: #0b0e12; /* Цвет фона карточек */
+    --foreground: #fff; /* Основной цвет текста */
+
+    --danger: #eb0237; /* Цвет ошибки */
+    --primary: #43ad28; /* Цвет primary кнопки */
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply max-w-[1920px] p-[2.625rem];
+    /* @apply mx-auto max-w-[1920px] px-5 sm:px-8 md:px-10 lg:px-12 xl:px-16 2xl:px-[4.375rem]; */
+  }
+
+  .logo {
+    /* @apply text-6xl font-normal leading-none tracking-[-0.01em] md:text-9xl font-gothamPro; */
+    @apply text-[2rem] font-tactic italic;
+  }
+}
